@@ -1,0 +1,10 @@
+Реализуем функцию, generateRange которая принимает три аргумента (start, stop, step) 
+и возвращает диапазон целых чисел от start до stop включительно с шагом step.
+
+function generateRange(min, max, step){
+  let array = [];
+  for (let value = min; value <= max; value += step) {
+    array.push(value);
+  }
+  return array;
+}
